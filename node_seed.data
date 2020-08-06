@@ -1,9 +1,8 @@
 module.exports = [
     {
-        "name": "Kong Test Seed",
-        "type": "key_auth",
+        "name": "kong",
+        "type": "default",
         "kong_admin_url": "http://kong:8001",
-        "kong_api_key": "DonKeyKong",
-        "health_checks": false,
+        "health_checks": true,
     }
 ]
